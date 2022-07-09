@@ -26,8 +26,8 @@ public class youtubeplay extends AppCompatActivity {
 
         lookAtMe.init(this);
         //lookAtMe.setVideoURI(myUri);
-        lookAtMe.setVideoPath("https://user-images.githubusercontent.com/80502833/170062302-b2da3369-7779-482f-9327-1b785cc732bd.mp4");
-     //   lookAtMe.setVideoPath(yturl);// to use video from a url
+        //lookAtMe.setVideoPath("https://user-images.githubusercontent.com/80502833/170062302-b2da3369-7779-482f-9327-1b785cc732bd.mp4");
+      lookAtMe.setVideoPath(yturl);// to use video from a url
 
         lookAtMe.start();
 //        lookAtMe.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
