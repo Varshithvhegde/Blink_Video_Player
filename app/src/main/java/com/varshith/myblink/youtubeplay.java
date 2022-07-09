@@ -22,16 +22,12 @@ public class youtubeplay extends AppCompatActivity {
         Bundle extras = getIntent().getExtras();
        // Uri myUri = Uri.parse(extras.getString("VideoUri"));
         String yturl = extras.getString("yturl");
-        if (mediaControls == null) {
-            // create an object of media controller class
-            mediaControls = new MediaController(youtubeplay.this);
-            mediaControls.setAnchorView(lookAtMe);
-        }
+
 
         lookAtMe.init(this);
         //lookAtMe.setVideoURI(myUri);
         lookAtMe = findViewById(R.id.lookme);
-        lookAtMe.setVideoPath("https://www.appsloveworld.com/wp-content/uploads/2018/10/640.mp4");// to use video from a url
+        lookAtMe.setVideoPath(yturl);// to use video from a url
 
         lookAtMe.start();
         lookAtMe.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
