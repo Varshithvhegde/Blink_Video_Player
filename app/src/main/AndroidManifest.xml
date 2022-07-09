@@ -14,9 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyBlink">
         <activity
-            android:name=".Video_list"
-            android:exported="false" />
-        <activity
             android:name=".youtubeplay"
             android:exported="false" />
         <activity
