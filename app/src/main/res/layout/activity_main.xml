@@ -7,13 +7,12 @@
     android:background="#A3FFFFFF"
     tools:context=".MainActivity"
     android:gravity="center"
-
     android:orientation="vertical">
 
     <Button
         android:id="@+id/play"
         android:layout_width="203dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
 
 
         android:text="Select a Video To Play"

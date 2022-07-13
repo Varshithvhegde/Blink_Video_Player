@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyBlink">
         <activity
-            android:name=".SplashScreen"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".youtubeplay"
@@ -23,7 +23,7 @@
             android:name=".Player"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
