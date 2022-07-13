@@ -24,31 +24,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
 
-        <EditText
-            android:id="@+id/url"
-            android:layout_width="250dp"
-            android:layout_height="match_parent"
-            />
+<!--        <EditText-->
+<!--            android:id="@+id/url"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            />-->
 
-        <Button
-            android:id="@+id/ytplay"
-            android:layout_width="150dp"
-            android:layout_height="50dp"
+<!--        <Button-->
+<!--            android:id="@+id/ytplay"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="50dp"-->
 
 
-            android:text="Play"
-            android:textColor="#FFFFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.75" />
-    </LinearLayout>
+<!--            android:text="Play"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.75" />-->
+<!--    </LinearLayout>-->
 
 
 

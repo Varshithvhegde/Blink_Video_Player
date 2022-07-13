@@ -57,16 +57,5 @@
         app:layout_constraintVertical_bias="0.946"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="102dp"
-        android:layout_height="23dp"
-        android:textColor="@color/white"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/lookme"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/lookme"
-        app:layout_constraintVertical_bias="0.834" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

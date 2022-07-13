@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         //videoView=findViewById(R.id.video_view);
         play=findViewById(R.id.play);
-        url=findViewById(R.id.url);
-        ytplay = findViewById(R.id.ytplay);
+        //url=findViewById(R.id.url);
+       // ytplay = findViewById(R.id.ytplay);
 //        pause=findViewById(R.id.playstop);
 //        resume=findViewById(R.id.resume);
 //        reset=findViewById(R.id.reset);
@@ -53,15 +53,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ytplay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String yturl = url.getText().toString();
-                Intent intent=new Intent(MainActivity.this,youtubeplay.class);
-                intent.putExtra("yturl",yturl);
-                startActivity(intent);
-            }
-        });
+//        ytplay.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                String yturl = url.getText().toString();
+//                Intent intent=new Intent(MainActivity.this,youtubeplay.class);
+//                intent.putExtra("yturl",yturl);
+//                startActivity(intent);
+//            }
+//        });
     }
 
 
