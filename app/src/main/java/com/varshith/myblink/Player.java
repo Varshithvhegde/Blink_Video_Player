@@ -45,31 +45,33 @@ public class Player extends AppCompatActivity {
         btnpause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                if(flag==0) {
-                    lookAtMe.pause();
-                    lookAtMe.stopPlayback();
-                    lookAtMe.destroy();
-                    flag=1;
-
-                }
-                else{
-                    Toast.makeText(Player.this, "Video is Already paused Manually", Toast.LENGTH_SHORT).show();
-                }
+                    lookAtMe.paused();
+//                if(flag==0) {
+//                    lookAtMe.pause();
+//                    lookAtMe.stopPlayback();
+//                    lookAtMe.destroy();
+//                    flag=1;
+//
+//                }
+//                else{
+//                    Toast.makeText(Player.this, "Video is Already paused Manually", Toast.LENGTH_SHORT).show();
+//                }
             }
         });
         btnplay.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                flag=0;
+//                flag=0;
+//
+//
+//
+//                lookAtMe.init(Player.this);
+//                lookAtMe.setVideoURI(myUri);
+//                lookAtMe.resume();
+//                lookAtMe.canSeekBackward();
+//                lookAtMe.setLookMe();
 
-
-
-                lookAtMe.init(Player.this);
-                lookAtMe.setVideoURI(myUri);
                 lookAtMe.resume();
-                lookAtMe.canSeekBackward();
-                lookAtMe.setLookMe();
             }
         });
         btnreplay.setOnClickListener(new View.OnClickListener() {
