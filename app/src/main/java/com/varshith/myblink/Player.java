@@ -2,6 +2,8 @@ package com.varshith.myblink;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -21,7 +23,7 @@ import java.util.TimerTask;
 
 public class Player extends AppCompatActivity {
     private LookAtMe lookAtMe;
-    ImageView btnpause,btnplay,btnreplay;
+    ImageView btnpause,btnplay,btnreplay,btnrotate;
 
     int flag=0;
     @Override
@@ -31,6 +33,7 @@ public class Player extends AppCompatActivity {
         btnpause= (ImageView) findViewById(R.id.pause);
         btnplay=(ImageView)findViewById(R.id.play);
         btnreplay=(ImageView)findViewById(R.id.restart) ;
+
         Bundle extras = getIntent().getExtras();
         Uri myUri = Uri.parse(extras.getString("VideoUri"));
         lookAtMe = findViewById(R.id.lookme);
@@ -45,7 +48,8 @@ public class Player extends AppCompatActivity {
         btnpause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                    lookAtMe.paused();
+                lookAtMe.paused();
+
 //                if(flag==0) {
 //                    lookAtMe.pause();
 //                    lookAtMe.stopPlayback();
@@ -85,5 +89,11 @@ public class Player extends AppCompatActivity {
                 lookAtMe.setLookMe();
             }
         });
+//        btnrotate.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+//            }
+//        });
     }
 }
