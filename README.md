@@ -9,3 +9,5 @@
 > It has a feature to track eyes and pause and play according to it. 
 > When eye is closed it automatically pauses the video you are playing. 
 > And automatically plays the video when the eye is opened
+> It also has a feature to manually pause the video using button.
+> It uses google vision api to track the eye movement
