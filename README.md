@@ -7,4 +7,4 @@
 # Working
 - Its a video player with eye tracking. 
 > It has a feature to track eyes and pause and play according to it. 
-> 
+> When eye is closed it automatically pauses the video you are playing. 
