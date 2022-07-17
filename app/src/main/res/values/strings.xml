@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">My Blink</string>
-    <string name="play">Tap and Select a Video To Play</string>
+    <string name="play">Select a Video To Play</string>
 </resources>
