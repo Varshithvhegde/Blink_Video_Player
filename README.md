@@ -12,4 +12,4 @@
 > It also has a feature to manually pause the video using button.
 > It uses google vision api to track the eye movement. 
 > This app works both in landscape and potrait mode. 
-
+> It uses google vision. 
