@@ -13,3 +13,6 @@
 > It uses google vision api to track the eye movement. 
 > This app works both in landscape and potrait mode. 
 > It uses google vision. 
+
+# Download
+- To Download the latest apk [click here]()
