@@ -15,4 +15,4 @@
 > It uses google vision. 
 
 # Download
-- To Download the latest apk [click here]()
+- To Download the latest apk [click here](https://github.com/Varshithvhegde/Blink_Video_Player/releases/download/v1.2.0/app-debug.apk)
