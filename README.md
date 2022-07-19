@@ -16,3 +16,4 @@
 
 # Download
 - To Download the latest apk [click here](https://github.com/Varshithvhegde/Blink_Video_Player/releases/download/v1.2.0/app-debug.apk)
+<img src="https://img.shields.io/github/downloads/Varshithvhegde/Blink_Video_Player/total" width="100dp"/>
