@@ -17,5 +17,5 @@
 # Download
 [<img src="https://raw.githubusercontent.com/Varshithvhegde/Scan_Me/master/direct-apk-download.png"
       alt="Direct apk download"
-      height="80">](https://github.com/Varshithvhegde/Blink_Video_Player/releases/download/v1.2.0/app-debug.apk) 
+      height="80">](https://github.com/Varshithvhegde/Blink_Video_Player/releases/download/v1.2.0/app-debug.apk)  
 <img src="https://img.shields.io/github/downloads/Varshithvhegde/Blink_Video_Player/total" width="100dp"/>
