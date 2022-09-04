@@ -52,9 +52,14 @@ This is a projet we deeloped as a part of our mini project in VTU 6th Sem.
 - Enjoy the video
 
 ## Screenshots
-Splash Screen|Video Selection |Video Player
-:-----:|:--------------:|:-----------:|
-![screenshot1](https://user-images.githubusercontent.com/80502833/188322214-171e40a3-e8e5-49d3-af22-80ea9d2e60c7.jpg)|![screenshot3](https://user-images.githubusercontent.com/80502833/188322217-bbb66d3f-4442-4e59-8a51-4bffc0a1fbf0.jpg)|![screenshot7](https://user-images.githubusercontent.com/80502833/188322218-16f8243c-1a6e-4b50-b73d-5f6ceb871ef2.jpg)
+<table>
+<thead>
+<tr><th style="text-align:center">Splash Screen</th><th style="text-align:center">Video Selection</th><th style="text-align:center">Video Player</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><img src="https://user-images.githubusercontent.com/80502833/188322214-171e40a3-e8e5-49d3-af22-80ea9d2e60c7.jpg" alt="screenshot1" height=300px width=150px></td><td style="text-align:center"><img src="https://user-images.githubusercontent.com/80502833/188322217-bbb66d3f-4442-4e59-8a51-4bffc0a1fbf0.jpg" alt="screenshot3" height=300px width=150px></td><td style="text-align:center"><img src="https://user-images.githubusercontent.com/80502833/188322218-16f8243c-1a6e-4b50-b73d-5f6ceb871ef2.jpg" alt="screenshot7" height=300px width=150px></td></tr>
+</tbody>
+</table>
 
 ## Contributors
 
