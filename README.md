@@ -35,7 +35,7 @@ This is a projet we deeloped as a part of our mini project in VTU 6th Sem.
 - Download the apk file from the link given below
 
 [<img src="https://raw.githubusercontent.com/Varshithvhegde/Scan_Me/master/direct-apk-download.png"  alt="Direct apk download" height="80">](https://github.com/Varshithvhegde/Blink_Video_Player/releases/download/v1.2.0/app-debug.apk)  
-<img src="https://img.shields.io/github/downloads/Varshithvhegde/Blink_Video_Player/total" width="100dp"/>
+![Github Releases](https://img.shields.io/github/downloads/Varshithvhegde/Blink_Video_Player/latest/total.svg?style=plastic)
 
 - Install the apk file in your android device
 - Open the app
