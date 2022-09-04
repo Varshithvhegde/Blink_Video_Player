@@ -1,3 +1,5 @@
+<center><img src="https://user-images.githubusercontent.com/80502833/188321738-c3ab4841-2f90-4d3a-9ee2-b353086cec7d.png" width=50% height=50% /></center>
+
 # Blink Video Player
 
 ## Introduction
