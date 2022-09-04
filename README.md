@@ -56,7 +56,6 @@ Splash Screen|Video Selection |Video Player
 :-----:|:--------------:|:-----------:|
 ![screenshot1](https://user-images.githubusercontent.com/80502833/188322214-171e40a3-e8e5-49d3-af22-80ea9d2e60c7.jpg)|![screenshot3](https://user-images.githubusercontent.com/80502833/188322217-bbb66d3f-4442-4e59-8a51-4bffc0a1fbf0.jpg)|![screenshot7](https://user-images.githubusercontent.com/80502833/188322218-16f8243c-1a6e-4b50-b73d-5f6ceb871ef2.jpg)
 
-
 ## Contributors
 
 - [Varshith V Hegde](https://github.com/Varshithvhegde)
